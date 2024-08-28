@@ -20,10 +20,14 @@ Specifically, [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/la
 
 #### Academic networks 
 
-[TBD]
+1. For ACM, coauthor-phy, and coauthor-cs, we could obtain from the REDRESS GitHub repo: (https://github.com/yushundong/REDRESS/tree/main/node%20classification/data) and copy to the `data` folder
+2. For ogbn-arxiv, we could use the OGB command to download the dataset:
+   ```
+   dataset = PygNodePropPredDataset(name='ogbn-arxiv')
+   ```
 
 #### Crime network
-1. Download [Crime dataset](https://archive.ics.uci.edu/dataset/183/communities+and+crime) to the `data` folde.
+1. Download [Crime dataset](https://archive.ics.uci.edu/dataset/183/communities+and+crime) to the `data` folder.
 2. Follow instructions from [Lahoti et al.](https://dl.acm.org/doi/10.14778/3372716.3372723) to get ratings from [Niche.com](https://www.niche.com/). We cannot share the code and data for this part due to legal issues.
 3. Run
 ```
