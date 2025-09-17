@@ -1,5 +1,5 @@
 # GFairHint
-
+Implementation for `Paiheng Xu, Yuhang Zhou, Bang An, Wei Ai, and Furong Huang. 2025. GFairHint: Improving Individual Fairness for Graph Neural Networks via Fairness Hint. ACM Trans. Knowl. Discov. Data 19, 3, Article 67 (April 2025), 22 pages. https://doi.org/10.1145/3714472`
 ## Install
 ```
 conda create -n fair_gnn python=3.7
